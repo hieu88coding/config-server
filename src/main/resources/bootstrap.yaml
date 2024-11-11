@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+#        composite: true
+        git:
+          uri: https://github.com/hieu88coding/config-server/src/main/resources
+  application:
+    name: config-server
+server:
+  port: 8000
